@@ -1,0 +1,17 @@
+{
+  "name": "standalone-buidler-test-suite-tek",
+  "version": "0.1.0",
+  "description": "just some tek",
+  "main": "index.js",
+  "scripts": {
+    "test": "hardhat test"
+  },
+  "repository": "git@github.com:raymondpulver/standalone-buidler-test-suite-tek.git",
+  "author": "ray <bandanation@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "ethers": "^5.0.19",
+    "hardhat": "^2.0.2"
+  }
+}
