@@ -1,10 +1,10 @@
 # standalone-hardhat-test-suite-tek
 
-This tek made possible by the wisdoms of Pato, creator of hardhat
+This tek made possible by the wisdom of Pato, creator of hardhat
 
 ## What is this tek, Ray?
 
-This one just makes it so you don't have to run `yarn hardhat node` in another window to run a simple test suite. You can just use the hardhat in-process provider that actually is there for you, even though the good Pato wants you to run a separaet hardhat node to run a suite.
+This one just makes it so you don't have to run `yarn hardhat node` in another window to run a simple test suite. Just use the hardhat in-process provider.
 
 You'll need a hardhat.config.js in your project. The best hardhat.config.js for this tek is created in this way:
 
@@ -12,7 +12,7 @@ You'll need a hardhat.config.js in your project. The best hardhat.config.js for 
 touch hardhat.config.js
 ``
 
-There will be nothing in this file and technically this is a valid nodejs module which exports an empty object. Pretty neat. Now you can do the next stuff.
+There will be nothing in this file, and technically this is a valid nodejs module which exports an empty object. This is, then, a valid hardhat configuration which will let you run the test suite and initialize the provider. Pretty neat. Now you can do the next stuff.
 
 ## Procedure
 
